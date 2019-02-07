@@ -1,5 +1,12 @@
+# file types
 *.exe
 *.pdb
-*/target/*
+*.lock
+
+# build artifacts
+projects/hello_cargo/target
+projects/guessing_game/target
+
+# personal env stuff
 .cred
 .vscode
